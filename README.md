@@ -54,9 +54,8 @@ classDiagram
     }
      
     class Cliente {
-    -Animais: Lista de Animais
+    -Animais: Lista de Animais ()
     -Motivo Consulta:string
     +Informar Motivo Consulta() string
     }
-
 ```
