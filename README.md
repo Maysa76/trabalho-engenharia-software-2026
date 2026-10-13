@@ -12,19 +12,19 @@ https://www.figma.com/proto/daZmTMeXfA2XVBkE5mni0Y/meu-projeto?node-id=145-332&s
 flowchart TD
     %% atores
    cliente["cliente"]
-   garçom["garçom"]
+   veterinario["veterinario"]
 
     %% ações
     subgraph sistema
-        comida["pedir comida"]
-        vinho["pedir vinho"]
+        informações["motivo consulta"]
+        motivo["pedir informações"]
     end
 
     %% relacionamento
-    cliente -- "faz pedido" --- comida
-    garçom -- "recebe pedido" --- comida
+    cliente -- "informar informações" --- informações
+    veterinario-- "pedir informações" --- informações
 
-    vinho -. "estende" .-> comida
+    motivo-. "estende" .-> informações
 ```
 ### Diagrama de Classe 
 
