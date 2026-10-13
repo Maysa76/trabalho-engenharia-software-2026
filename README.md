@@ -41,7 +41,7 @@ classDiagram
       -Lista Pessoas/Cliente: string
       - Nome do Pet: string
       -Raça: string
-      -Peso do animal: string
+      -Peso do animal: float
       -Idade do animal 
       - Motivo da Consulta : string
       - teve Febre : string
@@ -57,7 +57,7 @@ classDiagram
       +Pedir Email() string
       +Pedir Nome do Pet() string
       +Pedir Raça() string
-      +Pedir Peso do animal() string
+      +Pedir Peso do animal() float
       +Idade do animal () string
       + Motivo da Consulta ()
       + teve Febre () string
@@ -94,7 +94,7 @@ classDiagram
       +Informar Email() string
       +Informar Nome do Pet() string
       +Informar Raça() string
-      +Informar Peso do animal() string
+      +Informar Peso do animal() float 
       + Informar Idade do animal () string
       + Informar Motivo da Consulta ()
       + Informar teve Febre () string
