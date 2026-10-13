@@ -29,8 +29,7 @@ flowchart TD
 ### Diagrama de Classe 
 
 ```mermaid
-classDiagram
-    class Veterinarios {
+ class Veterinarios {
            %% atributos: caracteristicas que serao
         %% armazenados no sistema
       -nome: string
@@ -82,6 +81,11 @@ classDiagram
     class Cliente {
     -Animais: Lista de Animais ()
     -Motivo Consulta:string
+    -nome cliente: string
+    -sobrenome cliente: string
+    -telefone Cliente: string
+    -Email cliente: string
+
     +Informar Motivo Consulta() string
      +informar nome() string
       +informar sobrenome() string
