@@ -33,10 +33,36 @@ classDiagram
     class Veterinarios {
            %% atributos: caracteristicas que serao
         %% armazenados no sistema
-      -CPF: string
+      -nome: string
+      -sobrenome: string
+      -telefone: string
+      -Email: string
+      -Consultas: string 
+      -Lista Pessoas/Cliente: string
+      - Nome do Pet: string
+      -Raça: string
+      -Peso do animal: string
+      -Idade do animal 
+      - Motivo da Consulta : string
+      - teve Febre : string
+      - Datas das vacinas : string
+      - Doenças anteriores : string
+      - Outras infomações: string
+
       %% metodos: acoes que serao desempenhadas
       %% por essa entidade no sistema 
-      +darCPF() string
+      +Pedir nome() string
+      +Pedir sobrenome() string
+      +Pedir contato() string
+      +Pedir Email() string
+      +Pedir Nome do Pet() string
+      +Pedir Raça() string
+      +Pedir Peso do animal() string
+      +Idade do animal () string
+      + Motivo da Consulta ()
+      + teve Febre () string
+      + Datas das vacinas () string
+      + Doenças anteriores () string
       +atender Animal(animal: Animal): void
     }
 
@@ -57,5 +83,18 @@ classDiagram
     -Animais: Lista de Animais ()
     -Motivo Consulta:string
     +Informar Motivo Consulta() string
+     +informar nome() string
+      +informar sobrenome() string
+      +informar contato() string
+      +Informar Email() string
+      +Informar Nome do Pet() string
+      +Informar Raça() string
+      +Informar Peso do animal() string
+      + Informar Idade do animal () string
+      + Informar Motivo da Consulta ()
+      + Informar teve Febre () string
+      + Informar Datas das vacinas () string
+      + Informar Doenças anteriores () string
+      
     }
 ```
