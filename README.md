@@ -29,7 +29,8 @@ flowchart TD
 ### Diagrama de Classe 
 
 ```mermaid
- class Veterinarios {
+classDiagram
+    class Veterinarios {
            %% atributos: caracteristicas que serao
         %% armazenados no sistema
       -nome: string
@@ -99,6 +100,6 @@ flowchart TD
       + Informar teve Febre () string
       + Informar Datas das vacinas () string
       + Informar Doenças anteriores () string
-      
+
     }
 ```
